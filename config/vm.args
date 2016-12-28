@@ -1,0 +1,6 @@
+-sname sctp_srv
+
+-setcookie sctp_srv_cookie
+
++K true
++A30

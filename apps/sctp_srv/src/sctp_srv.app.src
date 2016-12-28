@@ -1,0 +1,17 @@
+{application, sctp_srv, [
+  {description, "An OTP application"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, {sctp_srv_app, []}},
+  {applications, [
+    kernel,
+    stdlib,
+    lager
+  ]},
+  {env, []},
+  {modules, []},
+
+  {maintainers, []},
+  {licenses, []},
+  {links, []}
+]}.
